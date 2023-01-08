@@ -30,8 +30,11 @@ html {
   }
 }
 
-
-
+.bold_2t{
+	font-size: 25px ; 
+	font-weight: 700 ;
+	letter-spacing: 0.7px ;
+}
 
 /* .s{
   position: absolute;
@@ -77,7 +80,6 @@ p {
 }
 
 
-
 .container {
   padding: 0 20px;
   margin: 0 auto
@@ -93,12 +95,9 @@ p {
   clear: both
 }
 
-
-
 .intro h1 strong {
   color: #bf1807
 }
-
 
 /* - link under - */
 
@@ -225,8 +224,6 @@ p {
   }
 
 }
-
-
 
 @media only screen and (min-width:1200px) {
   .container {
@@ -514,11 +511,11 @@ p {
 
 .main{
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   align-items: center;
   justify-content: space-around;
   /* height: 600px; */
-  padding-top: 60px;
+  padding-top: 100px;
 }
 
 .main .logo{
@@ -759,9 +756,9 @@ p {
   color: #FFFFFF;
   cursor: pointer;
   display: inline-block;
-  font-size: 16px;
-  font-weight: 100;
-  line-height: 16px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
   min-height: 40px;
   outline: 0;
   padding: 12px 14px;

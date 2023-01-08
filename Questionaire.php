@@ -125,10 +125,6 @@ textarea{
     }
 }
 
-
-
-
-
 </style>
 <body class="page-top-2">
     <header class="header">
@@ -168,27 +164,27 @@ textarea{
                 </select> 
             </div>
             <div class="details">
-                <div class="summary">What problem are you aiming to solve ?</div> 
+                <div class="summary">Provide a brief description of the problem identified.</div> 
                 <textarea required name="q1" id="q1" cols="50" rows="5"  ></textarea>
             </div>
             <div class="details">
-                <div class="summary">Have you researched this problem in the field? If yes, how was the response?</div> 
+                <div class="summary">Provide a brief synopsis of the solution developed.</div> 
                 <textarea name="q2" id="q2" cols="50" rows="5"  ></textarea>
             </div>
             <div class="details">
-                <div class="summary">What is your target customer segment and describe your customer persona.</div>
+                <div class="summary">Provide a detailed use case of your idea.</div>
                 <textarea required name="q3" id="q3" cols="50" rows="5"  ></textarea>
             </div>
             <div class="details">
-                <div class="summary">Are you providing a service or product to solve the problem? Describe the product/service.</div>
+                <div class="summary">Mention details about your market sizing and target customer segment.</div>
                 <textarea required name="q4" id="q4" cols="50" rows="5"  ></textarea>
             </div>
             <div class="details">
-                <div class="summary">What is your model for revenue generation? Explain the revenue model in brief.</div> 
+                <div class="summary">Are there any presently operational startups serving the same problem? If yes, mention the differentiators your company holds.(Mention scope of patency or other intellectual property rights, if any). </div> 
                 <textarea required name="q5" id="q5" cols="50" rows="5"  ></textarea>
             </div>
             <div class="details">
-                <div class="summary">Who are your direct and indirect competitors in the space currently and how do you differentiate yourself from them? (Mention scope of patency or other intellectual property rights, if any) (USP)
+                <div class="summary">Is your idea a revenue-generating one? Explain the revenue model in brief including the components that affect costings and prices.
                 </div> 
                 <textarea required name="q6" id="q6" cols="50" rows="5"  ></textarea>
             </div>
@@ -198,41 +194,26 @@ textarea{
             </div>
 
             <div class="details">
-                <div class="summary">What was the revenue of your startup in the last few financial years? How many services/products did you sold in each year?</div> 
+                <div class="summary">What was the revenue of your startup in the last few financial years? What is the total volume of services/products sold till date?</div> 
                 <textarea required name="q7" id="q7" cols="50" rows="5"  ></textarea> 
             </div>
             <div class="details">
-                <div class="summary">From how long is your venture operational?</div> 
+                <div class="summary">What are the operational and marketing channels your venture uses? For how long is your venture operational? Brief about the growth that your venture has experienced (specifying the basis of growth)</div> 
                 <textarea required name="q8" id="q8" cols="50" rows="5"  ></textarea> 
             </div>
             <div class="details">
-                <div class="summary">What marketing techniques(Channels) are you currently using to market your product/service to reach your target customers?</div> 
+                <div class="summary">What growth opportunities do you see for your venture? (Be specific and precise)
+Mention if you have secured funding, incubation, or enrolled in any (if any) accelerator program.
+</div> 
                 <textarea required name="q9" id="q9" cols="50" rows="5"  ></textarea> 
             </div>
             <div class="details">
-                <div class="summary">How much is your market traction?</div> 
+                <div class="summary">Mention details about the help you demand for your venture.</div> 
                 <textarea required name="q10" id="q10" cols="50" rows="5"  ></textarea>
-            </div>
-            <div class="details">
-                <div class="summary">What growth opportunities you see for your venture? (Be specific and precise)</div> 
-                <textarea required name="q11" id="q11" cols="50" rows="5"  ></textarea> 
-            </div>
-            <div class="details">
-                <div class="summary"> Mention if you have secured funding, incubation, or enrolled in any (if any) accelerator program.</div> 
-                <textarea name="q12" id="q12" cols="50" rows="5" ></textarea>
-            </div>
-            <div class="details">
-                <div class="summary">What are the Key Activities of your business(How your business works? Give a brief explanation)</div> 
-                <textarea required name="q13" id="q13" cols="50" rows="5"  ></textarea>
-            </div>
-            <div class="details">
-                <div class="summary">How is your Relationship with Customers?(Repeating customers, Retention rate etc)
-                </div> 
-                <textarea required name="q14" id="q14" cols="50" rows="5"  ></textarea> 
-            </div>
+        </div>
             <div class="details">
                 <div class="summary"> Add the website link of your Startup(If any)</div> 
-                <textarea name="q15" id="q15" cols="50" rows="5"  ></textarea> 
+                <textarea name="q11" id="q11" cols="50" rows="5"  ></textarea> 
             </div>
             <div class="btnhi">
                 <button  class="register button-24" type="submit" name="submit" role="button">SUBMIT</button>
