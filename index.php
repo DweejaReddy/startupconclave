@@ -25,8 +25,9 @@
                 <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
                 <ul class="menu">
                     <li><a href="./index.php" class="link link-theme link-arrow">HOME</a></li>
-                    <li><a href="./structure.php" class="link link-theme link-arrow">STRUCTURE</a></li>
+                    <li><a href="./structure.php" class="link link-theme link-arrow">INFO</a></li>
                     <li><a href="./speakers.php" class="link link-theme link-arrow">SPEAKERS</a></li>
+                    <li><a href="#contact" class="link link-theme link-arrow">CONTACT US</a></li>
                     <li><a href="./registration.php" class="link link-theme link-arrow">REGISTER</a></li>
                     <li><a href="./login.php" class="link link-theme link-arrow">LOGIN</a></li>
                 </ul>
@@ -38,7 +39,7 @@
         <div class="details">
             <h1 class="suc">Register Now For</h1>
             <h3 class="suc-det">Central India Largest B-Plan Competition</h3>
-            <h3 class="suc-det">Cash Prizes upto <span class="prize"> INR 3 Lakhs <span class="star"> * </span></span> <br> and Resorces worth <span class="prize">1 Million <span class="star" >** </span> </span></h3>
+            <h3 class="suc-det">Cash Prizes upto <span class="prize"> INR 3 Lakhs <span class="star"> * </span></span> <br> and Resources worth <span class="prize">1 Million <span class="star" >** </span> </span></h3>
             <button onclick="window.location.href='./registration.php'"  class="register button-24" role="button">REGISTER</button>
 
         </div>
@@ -81,7 +82,7 @@
     </section>
     </div>
 
-    <!-- <div class="title-name">
+    <div class="title-name">
         <h4>MAJOR SPONSOR</h4>
     </div>
 
@@ -115,7 +116,57 @@
                 <img class="img" src="images/blue-learn.png" alt="">
             </div>
         </div>
-    </div> -->
+    </div> 
+    
+    
+    <div class="space" id="contact" style="height: 100px;">
+        
+    </div>
+
+<!-- contact_section starts -->
+    <section class="contact" >
+        <div class="contact_container">
+            <div class="contact_container_2">
+                <p class="contact_heading">CONTACT US</p>
+                <h5>For any queries contact us at</h5>
+                <div class="name_container">
+                    <div class="mem">
+                        <div class="mem_name">Devesh Khilnani</div> 
+                        <p class="phone_num"> +91 9993494640</p>
+                        <!-- <p class="email_num"> <a class="email_link" href="mailto:deveshkhilnani@outlook.com">deveshkhilnani@outlook.com</p></a> -->
+                    </div>
+                    <div class="mem">
+                        <div class="mem_name">Kiran Pande</div> 
+                        <p class="phone_num">+91 9146479130</p>
+                        <!-- <p class="email_num"> <a class="email_link" href="mailto:dhirajbodade123@gmail.com">dhirajbodade123@gmail.com</p></a> -->
+                    </div>
+                    <div class="mem">
+                        <div class="mem_name">Alok Ranjan</div> 
+                        <p class="phone_num">+91 9334816453</p>
+                        <!-- <p class="email_num"> <a class="email_link" href="mailto:dhirajbodade123@gmail.com">alokranjan11052003@gmail.com</p></a> -->
+                    </div>
+                </div>
+                <div class="name_container_2">
+                    <div class="mem">
+                        <div class="mem_name">Dhiraj Bodade</div> 
+                        <p class="phone_num">+91 9503632771</p>
+                        <!-- <p class="email_num"><a class="email_link" href="mailto:kpande026@gmail.com">kpande026@gmail.com</p></a> -->
+                    </div>
+                    <div class="mem">
+                        <div class="mem_name">Aneesh Patil</div> 
+                        <p class="phone_num">+91 9422277113</p>
+                        <!-- <p class="email_num"> <a class="email_link" href="mailto:aneeshpatil18@gmail.com"></a>aneeshpatil18@gmail.com</p> -->
+                    </div>
+                    <div class="mem">
+                        <div class="mem_name">Priyans Singh</div> 
+                        <p class="phone_num">+91 9821194391</p>
+                        <!-- <p class="email_num"> <a class="email_link" href="mailto:priyansingh2001@gmail.com">priyansingh2001@gmail.com</p></a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- contact_section ends -->
 
 
 
