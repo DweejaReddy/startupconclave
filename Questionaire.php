@@ -156,10 +156,10 @@ textarea{
           <input name="TeamName" id="TeamName" class="answer_text" required>
         </div>
             <div class="details">
-                <div class="summary">What is the role of each member in the Startup ?</div> <textarea required name="" id="" cols="50" rows="5"  ></textarea>
+                <div class="summary">What is the role of each member in the Startup ?</div> <textarea required name="role" id="role" cols="50" rows="5"  ></textarea>
             </div>
             <div class="details">
-                <div class="summary">What is the background (Educational / Work Experience) of each member of the Startup ?</div> <textarea required name="" id="" cols="50" rows="5"  ></textarea>
+                <div class="summary">What is the background (Educational / Work Experience) of each member of the Startup ?</div> <textarea required name="Background" id="Background" cols="50" rows="5"  ></textarea>
             </div>
             <div class="details">
                 <div class="summary">Is your startup is in Ideation Stage or Working Stage?</div> 
