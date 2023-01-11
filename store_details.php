@@ -22,6 +22,8 @@ $email=mysqli_real_escape_string($conn, $_POST['email']);
 $password=mysqli_real_escape_string($conn, $_POST['password']);
 // $hashed_password = password_hash($password, PASSWORD_DEFAULT);
 $cpassword = mysqli_real_escape_string($conn, $_POST['cpassword']);
+$city = mysqli_real_escape_string($conn, $_POST['city']);
+$state = mysqli_real_escape_string($conn, $_POST['state']);
 $sector = mysqli_real_escape_string($conn, $_POST['sector']);
 $other = mysqli_real_escape_string($conn, $_POST['other']);
 $size = mysqli_real_escape_string($conn, $_POST['size']);
@@ -52,7 +54,7 @@ $_SESSION['name'] = $name;
     header('LOCATION:registration.php');
   }
   else{
-    $sql = "INSERT INTO users (team_name, leader_name, contact, email, password, sector, other, size, name1, email1, contact1, name2, email2, contact2, name3, email3, contact3, name4, email4, contact4) VALUES ('$team_name', '$leader_name','$contact', '$email', '$password', '$sector', '$other', '$size', '$name1', '$email1', '$contact1', '$name2', '$email2', '$contact2', '$name3', '$email3', '$contact3', '$name4', '$email4', '$contact4')";
+    $sql = "INSERT INTO users (team_name, leader_name, contact, email, password,city,state sector, other, size, name1, email1, contact1, name2, email2, contact2, name3, email3, contact3, name4, email4, contact4) VALUES ('$team_name', '$leader_name','$contact', '$email', '$password','$city','$state', '$sector', '$other', '$size', '$name1', '$email1', '$contact1', '$name2', '$email2', '$contact2', '$name3', '$email3', '$contact3', '$name4', '$email4', '$contact4')";
     if ($conn->query($sql) === TRUE) {
       header('LOCATION:Questionaire.php');
     } else {

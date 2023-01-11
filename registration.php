@@ -206,10 +206,10 @@ session_start();
                 <input type="password" class="answer_text" name="cpassword" id="cpassword" placeholder="Confirm Password" required> 
             </div>
             <div class="details">
-                <input type="text" class="answer_text_2" placeholder="City" required > 
+                <input type="text" name="city" id="city" class="answer_text_2" placeholder="City" required > 
             </div>
             <div class="details">
-                <input type="text" class="answer_text_2" placeholder="State" required > 
+                <input type="text" name="state" id="state" class="answer_text_2" placeholder="State" required > 
             </div>
             <div class="details"> 
                 <select id="sector" name="sector" type="text" class="answer_text sector" required>

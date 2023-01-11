@@ -29,7 +29,7 @@
             die("Connection failed: " . mysqli_connect_error());
         }
 
-        $sql = "SELECT id, team_name,leader_name, contact, email,sector, other, size, name1, email1, contact1, name2, email2, contact2, name3, email3, contact3, name4, email4, contact4, submitted_at FROM users";
+        $sql = "SELECT id, team_name,leader_name, contact, email,city, state, sector, other, size, name1, email1, contact1, name2, email2, contact2, name3, email3, contact3, name4, email4, contact4, submitted_at FROM users";
         $result = mysqli_query($conn, $sql);
         
     ?>
@@ -42,6 +42,8 @@
                 <th scope="col">Leader Name</th>
                 <th scope="col">Phone</th>
                 <th scope="col">Email</th>
+                <th scope="col">City</th>
+                <th scope="col">State</th>
                 <th scope="col">Sector</th>
                 <th scope="col">Other</th>
                 <th scope="col">Size</th>
@@ -71,6 +73,8 @@
                 <td><?php echo $row["leader_name"]; ?></td>
                 <td><?php echo $row["contact"]; ?></td>
                 <td><?php echo $row["email"]; ?></td>
+                <td><?php echo $row["city"]; ?></td>
+                <td><?php echo $row["state"]; ?></td>
                 <td><?php echo $row["sector"]; ?></td>
                 <td><?php echo $row["other"]; ?></td>
                 <td><?php echo $row["size"]; ?></td>
