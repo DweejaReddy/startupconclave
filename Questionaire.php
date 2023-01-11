@@ -94,6 +94,7 @@
     padding: 0.5rem 0.5rem 0.5rem 1rem;
     /* margin-left: 2rem; */
     border: #000000;
+    font-weight: 600;
     border-radius: 0.6rem;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
@@ -115,7 +116,7 @@ textarea{
     width: 100%;
     border: 2px;
     border-radius: 5px;
-    font-weight: 400;
+    font-weight: 600;
     padding: 5px;
 }
 
@@ -154,7 +155,12 @@ textarea{
           <div class="summary">Team Name</div> 
           <input name="TeamName" id="TeamName" class="answer_text" required>
         </div>
-        <!-- <div class="faqs"> -->
+            <div class="details">
+                <div class="summary">What is the role of each member in the Startup ?</div> <textarea required name="" id="" cols="50" rows="5"  ></textarea>
+            </div>
+            <div class="details">
+                <div class="summary">What is the background (Educational / Work Experience) of each member of the Startup ?</div> <textarea required name="" id="" cols="50" rows="5"  ></textarea>
+            </div>
             <div class="details">
                 <div class="summary">Is your startup is in Ideation Stage or Working Stage?</div> 
                 <select name="Stage" id="Stage" type="text" class="answer_text" required>
