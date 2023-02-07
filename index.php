@@ -38,7 +38,7 @@
 
         <div class="details" style="text-align:center;">
             <h3 class="suc-det" id="bold_2t">Central India Largest B-Plan Competition</h3>
-            <h3 class="suc-det">Cash Prizes upto <span class="prize"> INR 3 Lakhs <span class="star"> * </span></span> <br> and Resources worth <span class="prize">1 Million <span class="star" >** </span> </span></h3>
+            <h3 class="suc-det">Cash Prizes upto <span class="prize"> INR 3 Lakhs <span class="star"> * </span></span> <br> and Resources worth <span class="prize">1 Million <span class="star" >*</span> </span></h3>
             <button onclick="window.location.href='./registration.php'"  class="register button-24" role="button">REGISTER NOW !</button>
 
         </div>
@@ -115,8 +115,28 @@
                 <img class="img" src="images/blue-learn.png" alt="">
             </div>
         </div>
+        
     </div> 
+
+    <div class="out-box">
+        <div class="in-box">
+            <div class="img-box">
+                <img src="./images/fiire_goa.png" alt="" class="img">
+            </div>
+        </div>
+    </div>
     
+    <div class="title-name">
+        <h4>INCUBATION & OUTREACH PARTNER </h4>
+    </div>
+
+    <div class="out-box">
+        <div class="in-box">
+            <div class="img-box">
+                <img src="./images/iCreate-Logo_Full.png" alt="" class="img">
+            </div>
+        </div>
+    </div>
     
     <div class="space" id="contact" style="height: 100px;">
         
@@ -234,8 +254,8 @@
 <!-- footer section end -->
 <!-- footer copy right section start -->
 <section id="copy-right">
-    <div class="copy-right-sec"><i class="fa-solid fa-copyright"></i>  
-        <a href="https://www.ecellvnit.org/" style="text-decoration: none; color: #fff; "> E-cell VNIT </a>
+    <div class="copy-right-sec">  
+        <a href="https://www.ecellvnit.org/" style="text-decoration: none; color: #fff; "> E-Cell VNIT to award 50K cash and 2.5 Lakh investment, contingent on jury/mentor interests and startup quality <br> <i class="fa-solid fa-copyright"></i> E-cell VNIT </a>
     </div>
 
 </section>
