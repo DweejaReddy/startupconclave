@@ -158,7 +158,7 @@ textarea{
         <div class="details">
                 <div class="summary">From where did you get to know about Startup Conclave?</div>
   
-            <select id="Stage" type="text" class="answer_text" required onchange="yesnoCheck(this);">
+            <select id="source" name="source" type="text" class="answer_text" required >
 
                 <option class="option_text" value="select">Select </option>
                 <option class="option_text" value="Instagram">Instagram</option>
@@ -167,10 +167,10 @@ textarea{
                 <option class="option_text" value="Headstart">Headstart</option>
                 <option class="option_text" value="other">Others</option>
             </select>
-            <div id="ifYes" style="display: none;">
+            <!-- <div id="ifYes" style="display: none;">
                 <label for="car">Muu, mikä?</label> <textarea placeholder="Please specify" required name="" id="" cols="50" rows="1"  ></textarea>
-            </div>
-        </div>s
+            </div> -->
+        </div>
             <div class="details">
                 <div class="summary">What is the role of each member in the Startup ?</div> <textarea required name="role" id="role" cols="50" rows="5"  ></textarea>
             </div>
