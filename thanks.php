@@ -29,7 +29,9 @@ $name = $_SESSION['name'];
             <div class="row text-center box mx-auto" style="max-width: 95%;">
                
                 <div class="px-3 py-3 mx-3" style="color: #000;background-color: #fff;border-radius: 25px;width: 450px;max-width: 90%;">
-                  <?php echo "<h3 style=font-weight: 600 class=pt-4><b> Congratulations..</b>$name <br>Your registration is completed.</h3>";?><br>
+                  <?php echo "<h3 style=font-weight: 600 class=pt-4><b> Congratulations..</b>$name <br>Your registration is completed.</h3><br><h4 style=color:#bf1807>Join this whatsapp group for further updates!!</h4></h4>";?><br>
+                  <a href="https://chat.whatsapp.com/JSOM5sFxk9pGrTUhDIQSy6" target="_blank"> 
+              <button class="btn" style="background-color: #bf1807;color: #fff;">Join Now</button></a><br>
                 </div>
             </div>
         </div>
