@@ -164,7 +164,7 @@ session_start();
                 <li><a href="./structure.php" class="link link-theme link-arrow">INFO</a></li>
                 <li><a href="./speakers.php" class="link link-theme link-arrow">SPEAKERS</a></li>
                 <li><a href="./index.php#contact" class="link link-theme link-arrow">CONTACT US</a></li>
-                <li><a href="./registration.php" class="link link-theme link-arrow">REGISTER</a></li>
+                <!-- <li><a href="./registration.php" class="link link-theme link-arrow">REGISTER</a></li> -->
                 <li><a href="./login.php" class="link link-theme link-arrow">LOGIN</a></li>
             </ul>
         </div>
@@ -172,7 +172,7 @@ session_start();
     <!-- Navigation bar ends  -->
 
     <center>
-    <form action="store_details.php" class="box" method="post" id="registration-form" >
+    <!-- <form action="store_details.php" class="box" method="post" id="registration-form" >
             <?php 
                    if(isset($_SESSION['status'])&& $_SESSION['status'] !='')
                 {?>
@@ -186,7 +186,6 @@ session_start();
                    }
                 ?>
         <p class="headings">REGISTRATION FORM</p>
-        <!-- <div class="faqs"> -->
              <div class="details">
                  <input type="text" name="team_name" id="team_name" placeholder="Team Name" class="answer_text" required>
             </div>
@@ -270,9 +269,23 @@ session_start();
             <div class="btnhi">
             <button type="submit" name="submit"  class="register button-24" role="button">REGISTER</button>
             </div>
-        </form>
+        </form> -->
+
+
       </div>
     </center>
+
+    <div class="">
+        <div class="container d-flex align-items-center justify-content-center min-vh-100">
+            <div class="row text-center">
+                <div class="" style="color:white;">
+                  <?php echo "<h2>Registrations for StartUp Conclave 2023 have been closed!!</h2>"; ?>
+                </div>
+            </div>
+            <!-- <br> -->
+        </div>
+        </div>
+
     <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="savy.min.js"></script>
   <script src="script.js"></script>

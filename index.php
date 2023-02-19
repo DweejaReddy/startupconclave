@@ -28,7 +28,7 @@
                     <li><a href="./structure.php" class="link link-theme link-arrow">INFO</a></li>
                     <li><a href="./speakers.php" class="link link-theme link-arrow">SPEAKERS</a></li>
                     <li><a href="#contact" class="link link-theme link-arrow">CONTACT US</a></li>
-                    <li><a href="./registration.php" class="link link-theme link-arrow">REGISTER</a></li>
+                    <!-- <li><a href="./registration.php" class="link link-theme link-arrow">REGISTER</a></li> -->
                     <li><a href="./login.php" class="link link-theme link-arrow">LOGIN</a></li>
                 </ul>
             </div>
@@ -39,7 +39,8 @@
         <div class="details" style="text-align:center;">
             <h3 class="suc-det" id="bold_2t">Central India Largest B-Plan Competition</h3>
             <h3 class="suc-det">Cash Prizes upto <span class="prize"> INR 3 Lakhs <span class="star"> * </span></span> <br> and Resources worth <span class="prize">1 Million <span class="star" >*</span> </span></h3>
-            <button onclick="window.location.href='./registration.php'"  class="register button-24" role="button">REGISTER NOW !</button>
+            <h5 style="color:#bf1807;font-weight:bold">Registrations for StartUp Conclave 2023 have been closed!!</h5>
+            <!-- <button onclick="window.location.href='./registration.php'"  class="register button-24" role="button">REGISTER NOW !</button> -->
 
         </div>
 
